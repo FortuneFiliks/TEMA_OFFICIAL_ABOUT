@@ -1,0 +1,720 @@
+@media(max-width : 350px){
+    footer{
+    	width : 100%;
+    	min-height : 100vh;
+		background-image : url("../IMAGES/infinity-7482244.webp");
+		background-size : cover;
+    }
+    
+    
+    footer .footer_content{
+    	width : 100%;
+		min-height : 100vh;
+    	color : #ffffff;
+    	padding-top : 25px;
+    	background-color : #010b13F2;
+    }
+    
+    footer .footer_flex{
+    	display : flex;
+		flex-direction :column;
+    	width : 95%;
+		height : 750px;
+		margin-left : auto;
+		margin-right : auto;
+		padding-top : 30px;
+    }
+	
+	footer .footer_flex>div{
+		margin-top : 30px;
+	}
+	.footer_flex_first_item{
+		display : flex;
+		flex-direction : column;
+		align-items : center;
+		justify-content : center;
+	}
+    
+    footer .footer_flex>div:nth-child(1n){
+    	width : 100%;
+    }
+    
+    footer .footer_flex>div:nth-child(2n){
+    	width : 100%;
+    }
+    
+    footer .footer_flex>div:nth-child(3n){
+    	width : 100%;
+    }
+	
+    
+	footer .footer_flex_item p{
+		color : #ffffff;
+		font-size : 1.25rem;	
+		font-weight : 600;
+	}
+    footer .footer_flex_item p	a{
+		color : #ffffff;
+	}
+    
+    .footer_icons{
+    	width : 100%;
+    	display : flex;
+    	justify-content : center;
+    	border-top : solid #e4e4e4 1px;
+    	border-bottom : solid #e4e4e4 1px;
+    	padding-top : 30px;
+    	padding-bottom : 30px;
+    	
+    }
+    .footer_icons>div{
+    	margin-left : 20px;
+    }
+    
+    .footer_icons .fab{
+    	font-size : 4rem;
+    }
+    
+    footer .footer_icons .fab{
+    	color :#ffffff;
+    	font-size : 1.5rem !important;
+    	
+    }
+    footer .footer_icons .icofont-x{
+    	color : #ffffff;
+    	font-size : 1.15rem;	
+    }
+    
+    
+    
+    footer .quick_links{
+    	list-style-type : none;
+		text-align : center;
+    }
+    
+    footer .footer_heading{
+    	font-weight : 600;
+    	font-size : 3rem;
+    }
+    
+    footer .customer_support{
+    	list-style-type : none;
+    	text-align : center;
+    }
+    
+    footer .quick_links_item, footer .customer_support_item{
+    	font-size : 1.25rem;
+		font-weight : 600;
+    }
+	
+	footer .footer_img{
+		width : 150px;
+		height : 98px;
+		margin-bottom : 30px;
+	}
+
+
+}
+
+
+@media(max-width : 600px){
+    footer{
+    	width : 100%;
+    	min-height : 100vh;
+		background-image : url("../IMAGES/infinity-7482244.webp");
+		background-size : cover;
+    }
+    
+    
+    footer .footer_content{
+    	width : 100%;
+		min-height : 100vh;
+    	color : #ffffff;
+    	padding-top : 25px;
+    	background-color : #010b13F2;
+    }
+    
+    footer .footer_flex{
+    	display : flex;
+		flex-direction :column;
+    	width : 95%;
+		height : 750px;
+		margin-left : auto;
+		margin-right : auto;
+		padding-top : 30px;
+    }
+	
+	footer .footer_flex>div{
+		margin-top : 30px;
+	}
+	.footer_flex_first_item{
+		display : flex;
+		flex-direction : column;
+		align-items : center;
+		justify-content : center;
+	}
+    
+    footer .footer_flex>div:nth-child(1n){
+    	width : 100%;
+    }
+    
+    footer .footer_flex>div:nth-child(2n){
+    	width : 100%;
+    }
+    
+    footer .footer_flex>div:nth-child(3n){
+    	width : 100%;
+    }
+	
+    
+	footer .footer_flex_item p{
+		color : #ffffff;
+		font-size : 1.25rem;	
+		font-weight : 600;
+	}
+    footer .footer_flex_item p	a{
+		color : #ffffff;
+	}
+    
+    .footer_icons{
+    	width : 100%;
+    	display : flex;
+    	justify-content : center;
+    	border-top : solid #e4e4e4 1px;
+    	border-bottom : solid #e4e4e4 1px;
+    	padding-top : 30px;
+    	padding-bottom : 30px;
+    	
+    }
+    .footer_icons>div{
+    	margin-left : 20px;
+    }
+    
+    .footer_icons .fab{
+    	font-size : 4rem;
+    }
+    
+    footer .footer_icons .fab{
+    	color :#ffffff;
+    	font-size : 2rem;
+    	
+    }
+    footer .footer_icons .icofont-x{
+    	color : #ffffff;
+    	font-size : 1.15rem;	
+    }
+    
+    
+    
+    footer .quick_links{
+    	list-style-type : none;
+		text-align : center;
+    }
+    
+    footer .footer_heading{
+    	font-weight : 600;
+    	font-size : 3rem;
+    }
+    
+    footer .customer_support{
+    	list-style-type : none;
+    	text-align : center;
+    }
+    
+    footer .quick_links_item, footer .customer_support_item{
+    	font-size : 1.25rem;
+		font-weight : 600;
+    }
+	
+	footer .footer_img{
+		width : 150px;
+		height : 98px;
+		margin-bottom : 30px;
+	}
+
+
+}
+@media(min-width: 600px){
+    footer{
+    	width : 100%;
+    	min-height : auto;
+		background-image : url("../IMAGES/infinity-7482244.webp");
+		background-size : cover;
+    }
+    
+    
+    footer .footer_content{
+    	width : 100%;
+		height : 100%;
+    	color : #ffffff;
+    	padding : 4rem 0 4rem 0;
+    	background-color : #010b13F2;
+    }
+    
+    footer .footer_flex{
+    	display : flex;
+		flex-direction :column;
+    	width : 95%;
+		height : 750px;
+		margin-left : auto;
+		margin-right : auto;
+		padding-top : 30px;
+    }
+	
+	footer .footer_flex>div{
+		margin-top : 30px;
+	}
+	.footer_flex_first_item{
+		display : flex;
+		flex-direction : column;
+		align-items : center;
+		justify-content : center;
+	}
+    
+    footer .footer_flex>div:nth-child(1n){
+    	width : 100%;
+    }
+    
+    footer .footer_flex>div:nth-child(2n){
+    	width : 100%;
+    }
+    
+    footer .footer_flex>div:nth-child(3n){
+    	width : 100%;
+    }
+	
+    
+	footer .footer_flex_item p{
+		color : #ffffff;
+		font-size : 1.25rem;	
+		font-weight : 600;
+	}
+    footer .footer_flex_item p	a{
+		color : #ffffff;
+	}
+    
+    .footer_icons{
+    	width : 100%;
+    	display : flex;
+    	justify-content : center;
+    	border-top : solid #e4e4e4 1px;
+    	border-bottom : solid #e4e4e4 1px;
+    	padding-top : 30px;
+    	padding-bottom : 30px;
+    	
+    }
+    .footer_icons>div{
+    	margin-left : 20px;
+    }
+    
+    .footer_icons .fab{
+    	font-size : 4rem;
+    }
+    
+    footer .footer_icons .fab{
+    	color :#ffffff;
+    	font-size : 2rem;
+    	
+    }
+    footer .footer_icons .icofont-x{
+    	color : #ffffff;
+    	font-size : 1.15rem;	
+    }
+    
+    
+    
+    footer .quick_links{
+    	list-style-type : none;
+		text-align : center;
+    }
+    
+    footer .footer_heading{
+    	font-weight : 600;
+    	font-size : 3rem;
+    }
+    
+    footer .customer_support{
+    	list-style-type : none;
+    	text-align : center;
+    }
+    
+    footer .quick_links_item, footer .customer_support_item{
+    	font-size : 1.25rem;
+		font-weight : 600;
+    }
+	
+	footer .footer_img{
+		width : 150px;
+		height : 98px;
+		margin-bottom : 30px;
+	}
+
+
+}
+
+
+@media(min-width: 768px){
+    footer{
+    	width : 100%;
+    	min-height : auto;
+		background-image : url("../IMAGES/infinity-7482244.webp");
+		background-size : cover;
+    }
+    
+    
+    footer .footer_content{
+    	width : 100%;
+		height : 100%;
+    	color : #ffffff;
+    	padding : 4rem 0 4rem 0;
+    	background-color : #010b13F2;
+    }
+    
+    footer .footer_flex{
+    	display : flex;
+		flex-direction : row;
+    	width : 95%;
+		height : 350px;
+		margin-left : auto;
+		margin-right : auto;
+		padding-top : 30px;
+    }
+    
+	footer .footer_flex>div{
+		margin-top : 0;
+	}
+	.footer_flex_first_item{
+		display : inline;
+		flex-direction : column;
+		align-items : left;
+		justify-content : center;
+	}	
+	
+	
+	
+    footer .footer_flex>div:nth-child(1n){
+    	width : 40%;
+    }
+    
+    footer .footer_flex>div:nth-child(2n){
+    	width : 30%;
+    }
+    
+    footer .footer_flex>div:nth-child(3n){
+    	width : 25%;
+    }
+    
+	footer .footer_flex_item p{
+		color : #ffffff;
+		font-size : 1.25rem;	
+		font-weight : 600;
+	}
+    footer .footer_flex_item p	a{
+		color : #ffffff;
+	}
+    
+    .footer_icons{
+    	width : 100%;
+    	display : flex;
+    	justify-content : center;
+    	border-top : solid #e4e4e4 1px;
+    	border-bottom : solid #e4e4e4 1px;
+    	padding-top : 30px;
+    	padding-bottom : 30px;
+    	
+    }
+    .footer_icons>div{
+    	margin-left : 20px;
+    }
+    
+    .footer_icons .fab{
+    	font-size : 4rem;
+    }
+    
+    footer .footer_icons .fab{
+    	color :#ffffff;
+    	font-size : 2rem;
+    	
+    }
+    footer .footer_icons .icofont-x{
+    	color : #ffffff;
+    	font-size : 1.15rem;	
+    }
+    
+    
+    
+    footer .quick_links{
+    	list-style-type : none;
+		text-align : left;
+    }
+    
+    footer .footer_heading{
+    	font-weight : 600;
+    	font-size : 3rem;
+    }
+    
+    footer .customer_support{
+    	list-style-type : none;
+    	text-align : right;
+    }
+    
+    footer .quick_links_item, footer .customer_support_item{
+    	font-size : 1.25rem;
+		font-weight : 600;
+    }
+	
+	footer .footer_img{
+		width : 150px;
+		height : 98px;
+		margin-bottom : 30px;
+	}
+
+
+}
+
+
+
+@media(min-width : 992px){
+    footer{
+    	width : 100%;
+    	min-height : auto;
+		background-image : url("../IMAGES/infinity-7482244.webp");
+		background-size : cover;
+    }
+    
+    
+    footer .footer_content{
+    	width : 100%;
+		height : 100%;
+    	color : #ffffff;
+    	padding : 4rem 0 4rem 0;
+    	background-color : #010b13F2;
+    }
+    
+    footer .footer_flex{
+    	display : flex;
+		flex-direction : row;
+    	width : 95%;
+		height : 350px;
+		margin-left : auto;
+		margin-right : auto;
+		padding-top : 30px;
+    }
+    
+	footer .footer_flex>div{
+		margin-top : 0;
+	}
+	.footer_flex_first_item{
+		display : inline;
+		flex-direction : column;
+		align-items : left;
+		justify-content : center;
+	}	
+	
+	
+	
+    footer .footer_flex>div:nth-child(1n){
+    	width : 40%;
+    }
+    
+    footer .footer_flex>div:nth-child(2n){
+    	width : 30%;
+    }
+    
+    footer .footer_flex>div:nth-child(3n){
+    	width : 25%;
+    }
+    
+	footer .footer_flex_item p{
+		color : #ffffff;
+		font-size : 1.25rem;	
+		font-weight : 600;
+	}
+    footer .footer_flex_item p	a{
+		color : #ffffff;
+	}
+    
+    .footer_icons{
+    	width : 100%;
+    	display : flex;
+    	justify-content : center;
+    	border-top : solid #e4e4e4 1px;
+    	border-bottom : solid #e4e4e4 1px;
+    	padding-top : 30px;
+    	padding-bottom : 30px;
+    	
+    }
+    .footer_icons>div{
+    	margin-left : 20px;
+    }
+    
+    .footer_icons .fab{
+    	font-size : 4rem;
+    }
+    
+    footer .footer_icons .fab{
+    	color :#ffffff;
+    	font-size : 2rem;
+    	
+    }
+    footer .footer_icons .icofont-x{
+    	color : #ffffff;
+    	font-size : 1.15rem;	
+    }
+    
+    
+    
+    footer .quick_links{
+    	list-style-type : none;
+		text-align : left;
+    }
+    
+    footer .footer_heading{
+    	font-weight : 600;
+    	font-size : 3rem;
+    }
+    
+    footer .customer_support{
+    	list-style-type : none;
+    	text-align : right;
+    }
+    
+    footer .quick_links_item, footer .customer_support_item{
+    	font-size : 1.25rem;
+		font-weight : 600;
+    }
+	
+	footer .footer_img{
+		width : 150px;
+		height : 98px;
+		margin-bottom : 30px;
+	}
+
+
+}
+
+
+
+
+@media(min-width : 1200px){
+    footer{
+    	width : 100%;
+    	min-height : auto;
+		background-image : url("../IMAGES/infinity-7482244.webp");
+		background-size : cover;
+    }
+    
+    
+    footer .footer_content{
+    	width : 100%;
+		height : 100%;
+		padding : 4rem 0 4rem 0;
+    	color : #ffffff;
+    	padding-top : 25px;
+    	background-color : #010b13F2;
+    }
+    
+    footer .footer_flex{
+    	display : flex;
+		flex-direction : row;
+    	width : 95%;
+		height : 350px;
+		margin-left : auto;
+		margin-right : auto;
+		padding-top : 30px;
+    }
+	
+	footer .footer_flex>div{
+		margin-top : 0;
+	}
+	.footer_flex_first_item{
+		display : inline;
+		flex-direction : column;
+		align-items : left;
+		justify-content : center;
+	}	
+	
+	
+    
+    footer .footer_flex>div:nth-child(1n){
+    	width : 40%;
+    }
+    
+    footer .footer_flex>div:nth-child(2n){
+    	width : 30%;
+    }
+    
+    footer .footer_flex>div:nth-child(3n){
+    	width : 25%;
+    }
+    
+	footer .footer_flex_item p{
+		color : #ffffff;
+		font-size : 1.25rem;	
+		font-weight : 600;
+	}
+    footer .footer_flex_item p	a{
+		color : #ffffff;
+	}
+    
+    .footer_icons{
+    	width : 100%;
+    	display : flex;
+    	justify-content : center;
+    	border-top : solid #e4e4e4 1px;
+    	border-bottom : solid #e4e4e4 1px;
+    	padding-top : 30px;
+    	padding-bottom : 30px;
+    	
+    }
+    .footer_icons>div{
+    	margin-left : 20px;
+    }
+    
+    .footer_icons .fab{
+    	font-size : 4rem;
+    }
+    
+    footer .footer_icons .fab{
+    	color :#ffffff;
+    	font-size : 2rem;
+    	
+    }
+    footer .footer_icons .icofont-x{
+    	color : #ffffff;
+    	font-size : 1.15rem;	
+    }
+    
+    
+    
+    footer .quick_links{
+    	list-style-type : none;
+		text-align : left;
+    }
+    
+    footer .footer_heading{
+    	font-weight : 600;
+    	font-size : 3rem;
+    }
+    
+    footer .customer_support{
+    	list-style-type : none;
+    	text-align : right;
+    }
+    
+    footer .quick_links_item, footer .customer_support_item{
+    	font-size : 1.25rem;
+		font-weight : 600;
+    }
+	
+	footer .footer_img{
+		width : 150px;
+		height : 98px;
+		margin-bottom : 30px;
+	}
+
+
+}
+
+
+

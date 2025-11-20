@@ -1,0 +1,522 @@
+@media(max-width : 350px){
+	*{
+		padding : 0;
+		margin : 0;
+		box-sizing : border-box;
+	}
+	:root{
+		--pri_color :#002875;
+		--sec_color :#7a0632;
+		--bg_color :#eff6ff;
+		
+	}
+/******************************MIN NAV SECTION******************************/	
+	.nav_menu{
+        background : linear-gradient(#000133 20%, #0047ab 80%);
+        color : #ffffff;
+        height : 65px;
+        position : fixed;
+        width : 100%;
+        z-index : 5;
+        color : #ffffff;
+		padding-top : 10px;
+		padding-left : 20px;		
+	}
+	
+	.nav_menu_flex{
+		display : flex;
+		justify-content : space-between;
+	}
+	.min_brand_logo{
+		width : 145px;
+		height : 80px;
+		background : linear-gradient(#00000000 65%, #0047ab 35%);
+		border-radius : 100%;
+		padding: 8px;
+	}
+	
+	.min_brand_logo_img{
+		width : 95px;
+		height : 62px;
+	}
+	.min_start_btn{
+		width : 45px !important;
+		height : 45px !important;
+	}
+	.start_btn{
+		
+	}
+	.hamburger_icon{
+		margin-top : 10px;
+	}
+	.fa-bars{
+		font-size : 2rem;
+	}
+
+	
+/******************************NAV SECTION******************************/	
+    nav{
+        background : linear-gradient(45deg,#0047ab,#000133);
+        color : #ffffff;
+        height : 65px;
+        position : fixed;
+        width : 100%;
+        z-index : 5;
+        box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+        color : #ffffff;
+        top : 0;
+		padding-top : 10px;
+		padding-left : 20px;
+		display : none;
+    }
+	nav a:hover{
+		text-decoration : none;
+	}
+    .logo_img{
+		width : 76px;
+        height : 40px;
+		cursor : pointer;
+	}
+	.nav_link{
+		color : #ffffff;
+		font-weight : 600;
+		font-size : 0.8rem;
+		padding : 0 10px 0 10px;
+		cursor : pointer;
+	}
+	.nav_link:hover{
+		color : #ffffff;
+	}
+    .navbar_nav{
+		display : inline;
+        margin-left : 10%;
+        margin-right : 5%;
+	}
+	.nav_item{
+		display : inline;
+	}
+    .get_started_btn{
+        background:#f2e6ca;
+		width : 15%;
+		height : 45px;
+		color : #7a0632;
+		font-weight : 700;
+		border : none;
+		border-radius : 5px;
+		font-size : 0.8rem
+	}
+
+/****************************************************END****************************************************/ 
+}
+
+
+@media(max-width : 600px){
+	*{
+		padding : 0;
+		margin : 0;
+		box-sizing : border-box;
+	}
+	:root{
+		--pri_color :#002875;
+		--sec_color :#7a0632;
+		--bg_color :#eff6ff;
+		
+	}
+/******************************MIN NAV SECTION******************************/	
+	.nav_menu{
+        background : linear-gradient(#000133 20%, #0047ab 80%);
+        color : #ffffff;
+        height : 65px;
+        position : fixed;
+        width : 100%;
+        z-index : 5;
+        color : #ffffff;
+		padding-top : 10px;
+		padding-left : 20px;		
+	}
+	
+	.nav_menu_flex{
+		display : flex;
+		justify-content : space-between;
+	}
+	.min_brand_logo{
+		width : 145px;
+		height : 80px;
+		background : linear-gradient(#00000000 65%, #0047ab 35%);
+		border-radius : 100%;
+		padding: 8px;
+	}
+	
+	.min_brand_logo_img{
+		width : 95px;
+		height : 62px;
+	}
+	.min_start_btn{
+		width : 48px;
+		height : 48px;
+	}
+	.start_btn{
+		
+	}
+	.hamburger_icon{
+		margin-top : 10px;
+	}
+	.fa-bars{
+		font-size : 2rem;
+	}
+	
+/******************************NAV SECTION******************************/	
+    nav{
+        background : linear-gradient(45deg,#0047ab,#000133);
+        color : #ffffff;
+        height : 65px;
+        position : fixed;
+        width : 100%;
+        z-index : 5;
+        box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+        color : #ffffff;
+        top : 0;
+		padding-top : 10px;
+		padding-left : 20px;
+		display : none;
+    }
+	nav a:hover{
+		text-decoration : none;
+	}
+    .logo_img{
+		width : 76px;
+        height : 40px;
+		cursor : pointer;
+	}
+	.nav_link{
+		color : #ffffff;
+		font-weight : 600;
+		font-size : 0.8rem;
+		padding : 0 10px 0 10px;
+		cursor : pointer;
+	}
+	.nav_link:hover{
+		color : #ffffff;
+	}
+    .navbar_nav{
+		display : inline;
+        margin-left : 10%;
+        margin-right : 5%;
+	}
+	.nav_item{
+		display : inline;
+	}
+    .get_started_btn{
+        background:#f2e6ca;
+		width : 15%;
+		height : 45px;
+		color : #7a0632;
+		font-weight : 700;
+		border : none;
+		border-radius : 5px;
+		font-size : 0.8rem
+	}
+	
+	
+/****************************************************END****************************************************/ 
+}
+
+
+
+
+@media(min-width : 601px){
+	*{
+		padding : 0;
+		margin : 0;
+		box-sizing : border-box;
+	}
+	:root{
+		--pri_color :#002875;
+		--sec_color :#7a0632;
+		--bg_color :#eff6ff;
+		
+	}
+/******************************MIN NAV SECTION******************************/	
+	.nav_menu{
+        display : none;
+	}	
+	
+/******************************NAV SECTION******************************/
+
+    nav{
+        background : linear-gradient(45deg,#0047ab,#000133);
+        color : #ffffff;
+        height : 65px;
+        position : fixed;
+        width : 100%;
+        z-index : 5;
+        box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+        color : #ffffff;
+        top : 0;
+		padding-top : 10px;
+		padding-left : 20px;
+    }
+	nav a:hover{
+		text-decoration : none;
+	}
+    .logo_img{
+		width : 76px;
+        height : 40px;
+		cursor : pointer;
+	}
+	.nav_link{
+		color : #ffffff;
+		font-weight : 600;
+		font-size : 0.8rem;
+		padding : 0 10px 0 10px;
+		cursor : pointer;
+	}
+	.nav_link:hover{
+		color : #ffffff;
+	}
+    .navbar_nav{
+		display : inline;
+        margin-left : 10%;
+        margin-right : 2%;
+	}
+	.nav_item{
+		display : inline;
+	}
+    .get_started_btn{
+        background:#f2e6ca;
+		width : 15%;
+		height : 45px;
+		color : #7a0632;
+		font-weight : 700;
+		border : none;
+		border-radius : 5px;
+		font-size : 0.8rem
+	}
+	
+	
+/****************************************************END****************************************************/ 
+}
+@media(min-width : 768px){
+	*{
+		padding : 0;
+		margin : 0;
+		box-sizing : border-box;
+	}
+	:root{
+		--pri_color :#002875;
+		--sec_color :#7a0632;
+		--bg_color :#eff6ff;
+	}
+	
+/******************************MIN NAV SECTION******************************/	
+	.nav_menu{
+        display : none;
+	}	
+	
+	
+/******************************NAV SECTION******************************/	
+    nav{
+        background : linear-gradient(45deg,#0047ab,#000133);
+        color : #ffffff;
+        height : 65px;
+        position : fixed;
+        width : 100%;
+        z-index : 5;
+        box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+        color : #ffffff;
+        top : 0;
+		padding-top : 10px;
+		padding-left : 20px;
+    }
+	nav a:hover{
+		text-decoration : none;
+	}
+    .logo_img{
+		width : 76px;
+        height : 40px;
+		cursor : pointer;
+	}
+	.nav_link{
+		color : #ffffff;
+		font-weight : 600;
+		padding : 0 10px 0 10px;
+		cursor : pointer;
+		font-size : 1rem;		
+	}
+	.nav_link:hover{
+		color : #ffffff;
+	}
+    .navbar_nav{
+		display : inline;
+        margin-left : 15%;
+        margin-right : 5%;
+	}
+	.nav_item{
+		display : inline;
+	}
+    .get_started_btn{
+        background:#f2e6ca;
+		width : 15%;
+		height : 45px;
+		color : #7a0632;
+		font-weight : 700;
+		border : none;
+		border-radius : 5px;
+		font-size : 1rem
+	}
+/****************************************************END****************************************************/ 
+}
+
+
+
+@media(min-width : 992px){
+	*{
+		padding : 0;
+		margin : 0;
+		box-sizing : border-box;
+	}
+	:root{
+		--pri_color :#002875;
+		--sec_color :#7a0632;
+		--bg_color :#eff6ff;
+	}
+/******************************MIN NAV SECTION******************************/	
+	.nav_menu{
+        display : none;
+	}	
+	
+	
+	
+/******************************NAV SECTION******************************/	
+    nav{
+        background : linear-gradient(45deg,#0047ab,#000133);
+        color : #ffffff;
+        height : 65px;
+        position : fixed;
+        width : 100%;
+        z-index : 5;
+        box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+        color : #ffffff;
+        top : 0;
+		padding-top : 10px;
+		padding-left : 20px;
+    }
+	nav a:hover{
+		text-decoration : none;
+	}
+    .logo_img{
+		width : 76px;
+        height : 40px;
+		cursor : pointer;
+	}
+	.nav_link{
+		color : #ffffff;
+		font-weight : 600;
+		font-size : 1.1rem;
+		padding : 0 10px 0 10px;
+		cursor : pointer;
+	}
+	.nav_link:hover{
+		color : #ffffff;
+	}
+    .navbar_nav{
+		display : inline;
+        margin-left : 25%;
+        margin-right : 5%;
+	}
+	.nav_item{
+		display : inline;
+	}
+    .get_started_btn{
+        background:#f2e6ca;
+		width : 15%;
+		height : 45px;
+		color : #7a0632;
+		font-weight : 700;
+		border : none;
+		border-radius : 5px;
+		font-size : 1.18rem
+	}
+	
+	
+/****************************************************END****************************************************/ 
+}
+
+
+
+
+
+
+@media(min-width : 1200px){
+	*{
+		padding : 0;
+		margin : 0;
+		box-sizing : border-box;
+	}
+	:root{
+		--pri_color :#002875;
+		--sec_color :#7a0632;
+		--bg_color :#eff6ff;
+	}
+/******************************MIN NAV SECTION******************************/	
+	.nav_menu{
+        display : none;
+	}	
+	
+	
+	
+	
+/******************************NAV SECTION******************************/	
+    nav{
+        background : linear-gradient(45deg,#0047ab,#000133);
+        color : #ffffff;
+        height : 65px;
+        position : fixed;
+        width : 100%;
+        z-index : 5;
+        box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+        color : #ffffff;
+        top : 0;
+		padding-top : 10px;
+		padding-left : 20px;
+    }
+	nav a:hover{
+		text-decoration : none;
+	}
+    .logo_img{
+		width : 76px;
+        height : 40px;
+		cursor : pointer;
+	}
+	.nav_link{
+		color : #ffffff;
+		font-weight : 600;
+		font-size : 1.13rem;
+		padding : 0 10px 0 10px;
+		cursor : pointer;
+	}
+	.nav_link:hover{
+		color : #ffffff;
+	}
+    .navbar_nav{
+		display : inline;
+        margin-left : 35%;
+        margin-right : 5%;
+	}
+	.nav_item{
+		display : inline;
+	}
+    .get_started_btn{
+        background:#f2e6ca;
+		width : 15%;
+		height : 45px;
+		color : #7a0632;
+		font-weight : 700;
+		border : none;
+		border-radius : 5px;
+		font-size : 1.25rem
+	}
+	
+	
+/****************************************************END****************************************************/
+}	
